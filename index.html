@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Snake</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="ui-overlay">
+            <div class="score-board">
+                <span class="label">SCORE</span>
+                <span id="score">0</span>
+            </div>
+            <div class="controls-hint">
+                <p>Use <span>WASD</span> or <span>Arrows</span> to move</p>
+                <p>Press <span>SPACE</span> to pause/stop</p>
+            </div>
+        </div>
+
+        <div class="canvas-wrapper">
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+            <div id="startScreen" class="screen active">
+                <h1>NEON SNAKE</h1>
+                <p>Press Arrows or WASD to start</p>
+            </div>
+            <div id="gameOverScreen" class="screen hidden">
+                <h2>GAME OVER</h2>
+                <p>Final Score: <span id="finalScore">0</span></p>
+                <button id="restartBtn">Try Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+
+</html>
