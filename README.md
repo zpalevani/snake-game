@@ -3,7 +3,7 @@
 A modern, neon-styled implementation of the classic Snake game built with vanilla HTML, CSS, and JavaScript.
 
 ![Neon Snake Game Preview](preview_image_placeholder.png)
-*(Note: You can add a screenshot of your game here)*
+*(Note: To add a screenshot of the  game here)*
 
 ## 🎮 Features
 
